@@ -23,7 +23,7 @@
  */
 
 //for User-Agent header(?)
-$AMAZON_APPLICATION = 'phpAmazonMWS';
+$AMAZON_APPLICATION = 'LaravelAmazonMWS';
 $AMAZON_APPVERSION = '1.0';
 
 //Version numbers for cores
@@ -35,6 +35,10 @@ $AMAZON_VERSION_OUTBOUND    = '2010-10-01';
 $AMAZON_VERSION_PRODUCTS    = '2011-10-01';
 $AMAZON_VERSION_REPORTS     = '2009-01-01';
 $AMAZON_VERSION_SELLERS     = '2011-07-01';
+$AMAZON_VERSION_FINANCE     = '2015-05-01';
+//Recommendations
+$THROTTLE_LIMIT_FINANCE = 30;
+$THROTTLE_TIME_FINANCE = 2;
 
 //Amazon Throttle Values in seconds
 //Fetching Orders
